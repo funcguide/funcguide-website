@@ -16,6 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <title>Function.Guide</title>
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
       <body className={inter.className}>{children}</body>
     </html>
   )
